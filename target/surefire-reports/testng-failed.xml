@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [OrangeHRMSuite]" verbose="0">
+  <test thread-count="3" parallel="classes" name="UITests(failed)" verbose="0">
+    <classes>
+      <class name="com.demoproject.tests.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="verfiyInVaildLoginPage" invocation-numbers="0"/>
+          <include name="setupPage"/>
+          <include name="verfiyVaildLoginPage" invocation-numbers="0"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.demoproject.tests.LoginPageTest -->
+      <class name="com.demoproject.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupPage"/>
+          <include name="loadConfig"/>
+          <include name="verifyOrangeHRMLogo" invocation-numbers="0"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.demoproject.tests.HomePageTest -->
+    </classes>
+  </test> <!-- UITests(failed) -->
+  <test thread-count="3" parallel="classes" name="BackendTests(failed)" verbose="0">
+    <classes>
+      <class name="com.demoproject.tests.DBVerficationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="setupPages"/>
+          <include name="verifyEmployeeNameVerificationFromDB"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.demoproject.tests.DBVerficationTest -->
+      <class name="com.demoproject.tests.ApiTest">
+        <methods>
+          <include name="verifyGetUserAPI"/>
+        </methods>
+      </class> <!-- com.demoproject.tests.ApiTest -->
+    </classes>
+  </test> <!-- BackendTests(failed) -->
+  <test thread-count="3" parallel="classes" name="DummyTests(failed)" verbose="0">
+    <classes>
+      <class name="com.demoproject.tests.DummyTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="dummyone"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.demoproject.tests.DummyTest -->
+    </classes>
+  </test> <!-- DummyTests(failed) -->
+</suite> <!-- Failed suite [OrangeHRMSuite] -->

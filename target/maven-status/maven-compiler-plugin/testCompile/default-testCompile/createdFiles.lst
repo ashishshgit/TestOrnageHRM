@@ -1,0 +1,6 @@
+com\demoproject\tests\DummyTest2.class
+com\demoproject\tests\ApiTest.class
+com\demoproject\tests\LoginPageTest.class
+com\demoproject\tests\DBVerficationTest.class
+com\demoproject\tests\HomePageTest.class
+com\demoproject\tests\DummyTest.class

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="1" failed="5" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-25T18:20:05 IST" name="OrangeHRMSuite" finished-at="2026-06-25T18:24:37 IST" duration-ms="272130">
+    <groups>
+    </groups>
+    <test started-at="2026-06-25T18:20:05 IST" name="UITests" finished-at="2026-06-25T18:24:30 IST" duration-ms="265435">
+      <class name="com.demoproject.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoproject.tests.HomePageTest@1a20270e]" started-at="2026-06-25T18:20:06 IST" name="setup" finished-at="2026-06-25T18:20:20 IST" duration-ms="13834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:com.demoproject.tests.HomePageTest@1a20270e]" started-at="2026-06-25T18:20:20 IST" name="setupPage" finished-at="2026-06-25T18:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifyOrangeHRMLogo(java.lang.String,java.lang.String)[pri:0, instance:com.demoproject.tests.HomePageTest@1a20270e]" started-at="2026-06-25T18:20:20 IST" name="verifyOrangeHRMLogo" data-provider="validLoginData" finished-at="2026-06-25T18:23:23 IST" duration-ms="183538" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@8055507199]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Logo is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Logo is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.demoproject.tests.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrangeHRMLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproject.tests.HomePageTest@1a20270e]" started-at="2026-06-25T18:23:23 IST" name="tearDown" finished-at="2026-06-25T18:23:23 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoproject.tests.HomePageTest -->
+      <class name="com.demoproject.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:20:06 IST" name="setup" finished-at="2026-06-25T18:20:20 IST" duration-ms="13759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:20:20 IST" name="setupPage" finished-at="2026-06-25T18:20:20 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verfiyInVaildLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:20:20 IST" name="verfiyInVaildLoginPage" data-provider="inValidLoginData" finished-at="2026-06-25T18:21:23 IST" duration-ms="63219" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed - Invaild error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed - Invaild error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.demoproject.tests.LoginPageTest.verfiyInVaildLoginPage(LoginPageTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyInVaildLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:21:23 IST" name="tearDown" finished-at="2026-06-25T18:21:23 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:21:23 IST" name="setup" finished-at="2026-06-25T18:21:28 IST" duration-ms="4650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:21:28 IST" name="setupPage" finished-at="2026-06-25T18:21:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verfiyVaildLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:21:28 IST" name="verfiyVaildLoginPage" data-provider="validLoginData" finished-at="2026-06-25T18:24:30 IST" duration-ms="182120" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@8055507199]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Admin tab should be visable afterlogin expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Admin tab should be visable afterlogin expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.demoproject.tests.LoginPageTest.verfiyVaildLoginPage(LoginPageTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyVaildLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproject.tests.LoginPageTest@4b40f651]" started-at="2026-06-25T18:24:30 IST" name="tearDown" finished-at="2026-06-25T18:24:30 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoproject.tests.LoginPageTest -->
+    </test> <!-- UITests -->
+    <test started-at="2026-06-25T18:24:31 IST" name="BackendTests" finished-at="2026-06-25T18:24:31 IST" duration-ms="22">
+      <class name="com.demoproject.tests.DBVerficationTest">
+        <test-method signature="verifyEmployeeNameVerificationFromDB(java.lang.String,java.lang.String)[pri:0, instance:com.demoproject.tests.DBVerficationTest@344f4dea]" started-at="2026-06-25T18:24:31 IST" name="verifyEmployeeNameVerificationFromDB" finished-at="2026-06-25T18:24:31 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.demoproject.tests.DBVerficationTest.verifyEmployeeNameVerificationFromDB(java.lang.String,java.lang.String) requires a @DataProvider named : emplVerification in class com.orangehrm.utilities.DataProviders]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.demoproject.tests.DBVerficationTest.verifyEmployeeNameVerificationFromDB(java.lang.String,java.lang.String) requires a @DataProvider named : emplVerification in class com.orangehrm.utilities.DataProviders
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeNameVerificationFromDB -->
+      </class> <!-- com.demoproject.tests.DBVerficationTest -->
+      <class name="com.demoproject.tests.ApiTest">
+        <test-method signature="verifyGetUserAPI()[pri:0, instance:com.demoproject.tests.ApiTest@1b7c473a]" started-at="2026-06-25T18:24:31 IST" name="verifyGetUserAPI" finished-at="2026-06-25T18:24:31 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because the return value of "com.orangehrm.utilities.ExtentManager.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(String)" because the return value of "com.orangehrm.utilities.ExtentManager.getTest()" is null
+at com.orangehrm.utilities.ExtentManager.logStep(ExtentManager.java:81)
+at com.demoproject.tests.ApiTest.verifyGetUserAPI(ApiTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserAPI -->
+      </class> <!-- com.demoproject.tests.ApiTest -->
+    </test> <!-- BackendTests -->
+    <test started-at="2026-06-25T18:24:31 IST" name="DummyTests" finished-at="2026-06-25T18:24:37 IST" duration-ms="6484">
+      <class name="com.demoproject.tests.DummyTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.demoproject.tests.DummyTest@535779e4]" started-at="2026-06-25T18:20:05 IST" name="loadConfig" finished-at="2026-06-25T18:20:05 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoproject.tests.DummyTest@535779e4]" started-at="2026-06-25T18:24:31 IST" name="setup" finished-at="2026-06-25T18:24:37 IST" duration-ms="5934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyone()[pri:0, instance:com.demoproject.tests.DummyTest@535779e4]" started-at="2026-06-25T18:24:37 IST" name="dummyone" finished-at="2026-06-25T18:24:37 IST" duration-ms="23" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as part of Testing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as part of Testing
+at com.demoproject.tests.DummyTest.dummyone(DummyTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproject.tests.DummyTest@535779e4]" started-at="2026-06-25T18:24:37 IST" name="tearDown" finished-at="2026-06-25T18:24:37 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.demoproject.tests.DummyTest@535779e4]" started-at="2026-06-25T18:24:37 IST" name="tearDownSuite" finished-at="2026-06-25T18:24:38 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.demoproject.tests.DummyTest -->
+      <class name="com.demoproject.tests.DummyTest2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoproject.tests.DummyTest2@53fd0d10]" started-at="2026-06-25T18:24:31 IST" name="setup" finished-at="2026-06-25T18:24:36 IST" duration-ms="5879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyone()[pri:0, instance:com.demoproject.tests.DummyTest2@53fd0d10]" started-at="2026-06-25T18:24:36 IST" name="dummyone" finished-at="2026-06-25T18:24:37 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoproject.tests.DummyTest2@53fd0d10]" started-at="2026-06-25T18:24:37 IST" name="tearDown" finished-at="2026-06-25T18:24:37 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoproject.tests.DummyTest2 -->
+    </test> <!-- DummyTests -->
+  </suite> <!-- OrangeHRMSuite -->
+</testng-results>
