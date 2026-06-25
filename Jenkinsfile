@@ -4,8 +4,15 @@ pipeline {
     tools {
         maven 'MVN' 
     }
+    
+    parameters {
+        choice(
+            name: 'BROWSER',
+            choices: ['chrome', 'firefox', 'edge'],
+            description: 'Browser to run tests on'
+        )
+    }
 
-   
     stages {
         stage('Checkout') {
             steps {
