@@ -85,7 +85,7 @@ public class BaseClass {
 	private synchronized void launchBrowser() {
 		// Initialize the WebDriver based on browser defined in config.properties
 
-		String browser = prop.getProperty("browser");
+		String browser = System.getProperty("BROWSER");
 
 		if (browser.equalsIgnoreCase("chrome")) {
 
@@ -101,7 +101,7 @@ public class BaseClass {
 			// driver = new ChromeDriver();
 			driver.set(new ChromeDriver(options));// new chnages as per thread
 			logger.info("Chrome driver instance ids created");
-		} else if (browser.equalsIgnoreCase("Firefox")) {
+		} else if (browser.equalsIgnoreCase("firefox")) {
 
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless"); // Run Firefox in headless mode
