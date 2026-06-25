@@ -16,7 +16,7 @@ public class DummyTest2 extends BaseClass {
 		ExtentManager.logStep("verifying the title");
 		//assert title.equals("OrangeHRM") : "Test Failed - Title is not matching";
 		System.out.println("Test Passed - Title is matching");
-		ExtentManager.logStep("Validation Successful");
+		ExtentManager.logStep("Validation Successful - ok");
 
 	}
 
