@@ -22,13 +22,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'mvn clean install'
+                bat 'mvn clean install -DskipTests'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'mvn test'
+                bat "mvn test -DBROWSER=${params.BROWSER}"
             }
         }
  
