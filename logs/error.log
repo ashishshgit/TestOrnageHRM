@@ -821,3 +821,7 @@ Session ID: 1e8519b19428cc4cf8c9444a217a33e9
 2026-06-25 18:31:14 [TestNG-test-DummyTests-2] ERROR BaseClass - Error Message
 2026-06-25 18:31:14 [TestNG-test-DummyTests-2] FATAL BaseClass - Fetal Message
 2026-06-25 18:31:14 [TestNG-test-DummyTests-1] FATAL BaseClass - Fetal Message
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] ERROR BaseClass - Error Message
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] FATAL BaseClass - Fetal Message
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] ERROR BaseClass - Error Message
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] FATAL BaseClass - Fetal Message

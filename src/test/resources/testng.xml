@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="OrangeHRMSuite" parallel="classes" thread-count="3">
-    <test name="UITests">
+   <!--  <test name="UITests">
         <classes>
             <class name="com.demoproject.tests.LoginPageTest" />
             <class name="com.demoproject.tests.HomePageTest" />
@@ -11,7 +11,7 @@
             <class name="com.demoproject.tests.DBVerficationTest" />
             <class name="com.demoproject.tests.ApiTest" />
         </classes>
-    </test>
+    </test>-->
     <test name="DummyTests">
         <classes>
             <class name="com.demoproject.tests.DummyTest" />

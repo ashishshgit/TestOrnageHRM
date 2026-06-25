@@ -982,3 +982,18 @@ Session ID: 1e8519b19428cc4cf8c9444a217a33e9
 2026-06-25 18:31:14 [TestNG-test-DummyTests-1] INFO  BaseClass - ActionDriver initliazed for thread:98
 2026-06-25 18:31:14 [TestNG-test-DummyTests-1] INFO  BaseClass - WebDriver Instance is closed.
 2026-06-25 18:31:14 [TestNG-test-DummyTests-2] INFO  BaseClass - WebDriver Instance is closed.
+2026-06-25 20:02:28 [main] INFO  BaseClass - Property File Loaded
+2026-06-25 20:02:33 [TestNG-test-DummyTests-2] INFO  BaseClass - Chrome driver instance ids created
+2026-06-25 20:02:33 [TestNG-test-DummyTests-1] INFO  BaseClass - Chrome driver instance ids created
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] INFO  BaseClass - Webdriver initizlized and browser maximize
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] TRACE BaseClass - Trace Message
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] DEBUG BaseClass - Debug Message
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] WARN  BaseClass - warn Message
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] INFO  BaseClass - ActionDriver initliazed for thread:29
+2026-06-25 20:02:38 [TestNG-test-DummyTests-1] INFO  BaseClass - WebDriver Instance is closed.
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] INFO  BaseClass - Webdriver initizlized and browser maximize
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] TRACE BaseClass - Trace Message
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] DEBUG BaseClass - Debug Message
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] WARN  BaseClass - warn Message
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] INFO  BaseClass - ActionDriver initliazed for thread:30
+2026-06-25 20:02:39 [TestNG-test-DummyTests-2] INFO  BaseClass - WebDriver Instance is closed.
